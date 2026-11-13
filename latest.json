@@ -1,17 +1,25 @@
 {
   "id": "jst",
   "latest": {
-    "version": "1.0.1",
-    "file": "https://github.com/xgq947-ship-it/jst-plugin-releases/releases/download/v1.0.1/jst-plugin-1.0.1.pddplugin",
-    "sha256": "962d4f271534334d7b6fdda4f3c3381a99d2868edb4fc45bfd1a90089c359ba2",
-    "size": 161740,
-    "published_at": "2026-11-12",
+    "version": "1.1.0",
+    "file": "https://github.com/xgq947-ship-it/jst-plugin-releases/releases/download/v1.1.0/jst-plugin-1.1.0.pddplugin",
+    "sha256": "116123d18b822736f5217eaef1d6801b374abfd9d33fbace18e98f69319d9041",
+    "size": 165728,
+    "published_at": "2026-11-13",
     "notes": [
-      "配合新版 AI客服：插件告诉 AI客服 自己是「聚水潭」，控制台上的称呼由插件决定",
-      "插件数据目录改认 AI客服 新的通用设置，老版本 AI客服 照样能用"
+      "自动备注：AI客服 可以扫出最近两天待审核 / 异常的订单，按商品编码查商品资料（名称、供应商），由 AI客服 拼好备注后写进聚水潭",
+      "备注写成功后，异常单自动转正常单，仓库才会发货"
     ]
   },
   "releases": [
+    {
+      "version": "1.1.0",
+      "published_at": "2026-11-13",
+      "notes": [
+        "自动备注：AI客服 可以扫出最近两天待审核 / 异常的订单，按商品编码查商品资料（名称、供应商），由 AI客服 拼好备注后写进聚水潭",
+        "备注写成功后，异常单自动转正常单，仓库才会发货"
+      ]
+    },
     {
       "version": "1.0.1",
       "published_at": "2026-11-12",
