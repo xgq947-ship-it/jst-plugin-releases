@@ -1,17 +1,25 @@
 {
   "id": "jst",
   "latest": {
-    "version": "1.1.0",
-    "file": "https://github.com/xgq947-ship-it/jst-plugin-releases/releases/download/v1.1.0/jst-plugin-1.1.0.pddplugin",
-    "sha256": "116123d18b822736f5217eaef1d6801b374abfd9d33fbace18e98f69319d9041",
-    "size": 165728,
-    "published_at": "2026-11-13",
+    "version": "1.1.1",
+    "file": "https://github.com/xgq947-ship-it/jst-plugin-releases/releases/download/v1.1.1/jst-plugin-1.1.1.pddplugin",
+    "sha256": "d2c6388b51d19c107e8eb3bdb55418646c56baf25974cf4cd6441e2b59e4e69e",
+    "size": 169373,
+    "published_at": "2026-11-14",
     "notes": [
-      "自动备注：AI客服 可以扫出最近两天待审核 / 异常的订单，按商品编码查商品资料（名称、供应商），由 AI客服 拼好备注后写进聚水潭",
-      "备注写成功后，异常单自动转正常单，仓库才会发货"
+      "登录窗口里，浏览器已经记住账号密码时，插件自动勾选用户协议、点「立即登录」、点弹窗里的「同意」，不用再手动点三下",
+      "不读不存任何密码；浏览器没填好密码、或遇到短信 / 滑块验证码时仍由人完成；「立即登录」一次最多自动点 3 次，防止密码错了把账号锁住"
     ]
   },
   "releases": [
+    {
+      "version": "1.1.1",
+      "published_at": "2026-11-14",
+      "notes": [
+        "登录窗口里，浏览器已经记住账号密码时，插件自动勾选用户协议、点「立即登录」、点弹窗里的「同意」，不用再手动点三下",
+        "不读不存任何密码；浏览器没填好密码、或遇到短信 / 滑块验证码时仍由人完成；「立即登录」一次最多自动点 3 次，防止密码错了把账号锁住"
+      ]
+    },
     {
       "version": "1.1.0",
       "published_at": "2026-11-13",
