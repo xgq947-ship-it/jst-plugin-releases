@@ -1,17 +1,27 @@
 {
   "id": "jst",
   "latest": {
-    "version": "1.1.3",
-    "file": "https://github.com/xgq947-ship-it/jst-plugin-releases/releases/download/v1.1.3/jst-plugin-1.1.3.pddplugin",
-    "sha256": "ee5c4b523f763d10403041c1fc1f1919bc07057457a727fbe8eecfad45419697",
-    "size": 170386,
-    "published_at": "2026-11-18",
+    "version": "1.2.0",
+    "file": "https://github.com/xgq947-ship-it/jst-plugin-releases/releases/download/v1.2.0/jst-plugin-1.2.0.pddplugin",
+    "sha256": "52dd45554bffcde0ba6c0cad42a813e186db3677304af9d8ad0b64ce22f8b73f",
+    "size": 176957,
+    "published_at": "2026-11-19",
     "notes": [
-      "发票工单里有好几张发票 PDF 时，不再直接报「请人工选」：每张都下载下来交给 AI客服，录入弹窗里列出来，人点开查看后选一张",
-      "只有一张时照旧直接取用；插件不替人挑哪一张"
+      "新增「修改收货地址」：给订单号和一整段「姓名 手机 省市区 详细地址」，插件用聚水潭自己的地址识别拆开后保存，保存后重新读一遍订单核对",
+      "只改还没发货的订单；姓名、省市区、详细地址识别不全就停下交人，不猜；订单上已经是这个地址不会重复改",
+      "拼多多虚拟号（需要带分机号）的订单不替人判断，停下交人"
     ]
   },
   "releases": [
+    {
+      "version": "1.2.0",
+      "published_at": "2026-11-19",
+      "notes": [
+        "新增「修改收货地址」：给订单号和一整段「姓名 手机 省市区 详细地址」，插件用聚水潭自己的地址识别拆开后保存，保存后重新读一遍订单核对",
+        "只改还没发货的订单；姓名、省市区、详细地址识别不全就停下交人，不猜；订单上已经是这个地址不会重复改",
+        "拼多多虚拟号（需要带分机号）的订单不替人判断，停下交人"
+      ]
+    },
     {
       "version": "1.1.3",
       "published_at": "2026-11-18",
